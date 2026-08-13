@@ -33,11 +33,9 @@ Técnica que transforma os dados em formato ilegível sem a chave correta. Deve 
 
 ---
 
-## 2. Laboratório Prático — brModelo web
+## 2. Laboratório Prático
 
-Modelo conceitual simples do cenário EdTech:
 
-![Modelo Conceitual EdTech](./modelo-conceitual-edtech.png)
 
 ---
 
