@@ -48,15 +48,12 @@ Modelo conceitual simples do cenário EdTech:
 | Entidade | Atributo sensível | Por quê? |
 |---|---|---|
 |Aluno | CPF | dado pessoal protegido por lei |
-| | | |
-| | | |
 
 ### Tabelas que precisam de log de acesso
 
 | Tabela | Justificativa |
 |---|---|
 |Professor | alterações de notas devem ser rastreáveis |
-| | |
 
 ---
 
