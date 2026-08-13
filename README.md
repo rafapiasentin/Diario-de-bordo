@@ -44,6 +44,8 @@ Exemplos de campos úteis para auditoria:
 
 ## 2. Laboratório Prático
 
+![Modelo Conceitual](ModeloDeNegocios.jpeg)
+
 O laboratório permitiu compreender, na prática, como a segurança pode ser aplicada em um banco de dados — principalmente por meio de permissões de acesso, proteção de informações e registro das alterações realizadas.
 
 A principal conclusão foi a de que não basta apenas criar as tabelas e inserir os dados; é necessário também definir **quem pode acessar cada informação** e **o que cada usuário está autorizado a fazer**.
