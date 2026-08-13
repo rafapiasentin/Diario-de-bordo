@@ -44,8 +44,6 @@ Exemplos de campos úteis para auditoria:
 
 ## 2. Laboratório Prático
 
-![Modelo Conceitual](ModeloDeNegocios.jpeg)
-
 O laboratório permitiu compreender, na prática, como a segurança pode ser aplicada em um banco de dados — principalmente por meio de permissões de acesso, proteção de informações e registro das alterações realizadas.
 
 A principal conclusão foi a de que não basta apenas criar as tabelas e inserir os dados; é necessário também definir **quem pode acessar cada informação** e **o que cada usuário está autorizado a fazer**.
@@ -66,8 +64,22 @@ A principal conclusão foi a de que não basta apenas criar as tabelas e inserir
 |-----------|----------------|
 | Professor | Alterações em notas precisam ser registradas para identificar quem realizou a alteração e em que momento ela ocorreu. |
 
+### 3.3 Dados Sensíveis e Logs de Acesso
+
+As tabelas **Aluno** e **Professor** concentram os dados que exigem mais cuidado, como `cpf`, `senha_hash` e `email` — informações pessoais e de login. As senhas devem ficar armazenadas apenas em formato de hash, para que não fiquem expostas em caso de acesso indevido ao banco.
+
+Para acompanhar o que acontece no sistema, a tabela **Log_Acesso** registra cada ação realizada, com data, hora, IP de origem e resultado, facilitando a investigação de qualquer acesso suspeito. A tabela **Matrícula** também merece atenção, já que guarda dados como `nota` e `frequencia`, importantes para o histórico acadêmico do aluno.
+
+Com esses controles, fica mais fácil proteger as informações e identificar quem acessou ou alterou algo no sistema.
+
 ---
 
-## 4. Referência Bibliográfica
+## 4. Modelo do Banco de Dados
+
+![Modelo do Banco de Dados](ModeloDeNegocios.jpeg)
+
+---
+
+## 5. Referência Bibliográfica
 
 HEUSER, Carlos Alberto. **Projeto de Banco de Dados**. Bookman.
