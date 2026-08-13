@@ -47,7 +47,7 @@ Modelo conceitual simples do cenário EdTech:
 
 | Entidade | Atributo sensível | Por quê? |
 |---|---|---|
-| <!-- ex: Aluno --> | <!-- ex: CPF --> | <!-- ex: dado pessoal protegido por lei --> |
+|ex: Aluno | ex: CPF | ex: dado pessoal protegido por lei |
 | | | |
 | | | |
 
@@ -55,7 +55,7 @@ Modelo conceitual simples do cenário EdTech:
 
 | Tabela | Justificativa |
 |---|---|
-| <!-- ex: Professor --> | <!-- ex: alterações de notas devem ser rastreáveis --> |
+|ex: Professor | ex: alterações de notas devem ser rastreáveis |
 | | |
 
 ---
